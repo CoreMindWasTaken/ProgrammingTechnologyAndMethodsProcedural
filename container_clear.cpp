@@ -14,6 +14,9 @@ void container_clear(Container * C) {
         case BIRD:
             delete (Bird *)N->A;
             break;
+        case BEAST:
+            delete (Beast *)N->A;
+            break;
         default:
             delete N->A;
             break;
