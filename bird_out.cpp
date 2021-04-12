@@ -14,7 +14,7 @@ bool bird_out(Bird * B, ofstream & ofst)
     default:
         return false;
     }
-    ofst << " bird - " << B->Name << endl;
+    ofst << " bird (" << B->Age << " age) - " << B->Name << endl;
     return true;
 }
 }

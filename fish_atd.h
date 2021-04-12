@@ -7,5 +7,6 @@ struct Fish {
     int Key;
     std::string Name;
     Habitat Place;
+    int Age;
 };
 }

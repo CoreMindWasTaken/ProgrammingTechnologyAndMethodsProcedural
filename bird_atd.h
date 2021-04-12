@@ -7,5 +7,6 @@ struct Bird {
     int Key;
     std::string Name;
     Migration AttitudeFlight;
+    int Age;
 };
 }

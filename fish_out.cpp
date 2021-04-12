@@ -17,7 +17,7 @@ bool fish_out(Fish * F, ofstream & ofst)
     default:
         return false;
     }
-    ofst << " fish - " << F->Name << endl;
+    ofst << " fish (" << F->Age << " age)- " << F->Name << endl;
     return true;
 }
 }

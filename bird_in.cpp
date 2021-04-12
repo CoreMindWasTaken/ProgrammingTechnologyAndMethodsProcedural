@@ -5,7 +5,7 @@ Bird * bird_in(ifstream & ifst)
 {
     Bird * B = new Bird;
     int TMP;
-    ifst >> B->Name >> TMP;
+    ifst >> B->Name >> TMP >> B->Age;
     B->AttitudeFlight = (Migration)TMP;
     return B;
 }
