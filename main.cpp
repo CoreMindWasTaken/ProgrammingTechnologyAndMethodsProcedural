@@ -5,6 +5,7 @@ void container_init(Container * C);
 void container_clear(Container * C);
 bool container_in(Container * C, ifstream & ifst);
 void container_out(Container * C, ofstream & ofst);
+void container_out_fish(Container * C, ofstream & ofst);
 }
 using namespace Animals;
 int main(int argc, char * argv[]) {
@@ -24,6 +25,7 @@ int main(int argc, char * argv[]) {
     {
         ofst << "Filled container!" << endl;
         container_out(C, ofst);
+        container_out_fish(C, ofst);
         container_clear(C);
         ofst << "Empty container!" << endl;
         container_out(C, ofst);
