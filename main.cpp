@@ -15,8 +15,8 @@ int main(int argc, char * argv[]) {
 //    }
 //    ifstream ifst(argv[1]);
 //    ofstream ofst(argv[2]);
-    ifstream ifst("D:\\QT\\Programming technology and methods\\LaboratoryWork1\\ProceduralProgram\\Project\\IN.txt");
-    ofstream ofst("D:\\QT\\Programming technology and methods\\LaboratoryWork1\\ProceduralProgram\\Project\\OUT.txt");
+    ifstream ifst("D:\\QT\\Programming technology and methods\\LaboratoryWork2\\ProceduralProgram\\Project\\IN.txt");
+    ofstream ofst("D:\\QT\\Programming technology and methods\\LaboratoryWork2\\ProceduralProgram\\Project\\OUT.txt");
     cout << "Start!" << endl;
     Container * C = new Container;
     container_init(C);
