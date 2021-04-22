@@ -6,7 +6,7 @@ enum Habitat { RIVER, SEA, LAKE };
 struct Fish {
     int Key;
     std::string Name;
-    Habitat Place;
     int Age;
+    Habitat Place;
 };
 }

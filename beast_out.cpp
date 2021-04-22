@@ -17,7 +17,7 @@ bool beast_out(Beast * B, ofstream & ofst)
     default:
         return false;
     }
-    ofst << " beast - " << B->Name << endl;
+    ofst << " beast (" << B->Age << " age) - " << B->Name << endl;
     return true;
 }
 }

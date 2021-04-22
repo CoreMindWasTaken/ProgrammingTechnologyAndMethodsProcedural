@@ -2,11 +2,9 @@
 using namespace std;
 namespace Animals {
 bool node_out(Node * N, ofstream & ofst);
-void container_sort(Container * C);
 void container_out(Container * C, ofstream & ofst)
 {
     ofst << "Container contains " << C->Size << " elements!" << endl;
-    container_sort(C);
     Node * N = C->LastNode;
     while ((N != NULL) && (N->PrevNode != NULL))
     {

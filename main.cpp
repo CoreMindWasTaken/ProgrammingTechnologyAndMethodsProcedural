@@ -6,6 +6,7 @@ void container_clear(Container * C);
 bool container_in(Container * C, ifstream & ifst);
 void container_out(Container * C, ofstream & ofst);
 void container_out_fish(Container * C, ofstream & ofst);
+void container_sort(Container * C);
 }
 using namespace Animals;
 int main(int argc, char * argv[]) {
@@ -16,14 +17,16 @@ int main(int argc, char * argv[]) {
 //    }
 //    ifstream ifst(argv[1]);
 //    ofstream ofst(argv[2]);
-    ifstream ifst("D:\\QT\\Programming technology and methods\\LaboratoryWork2\\ProceduralProgram\\Project\\IN.txt");
-    ofstream ofst("D:\\QT\\Programming technology and methods\\LaboratoryWork2\\ProceduralProgram\\Project\\OUT.txt");
+    ifstream ifst("D:\\QT\\Programming technology and methods\\LaboratoryWork1\\ProceduralProgram\\Project\\IN.txt");
+    ofstream ofst("D:\\QT\\Programming technology and methods\\LaboratoryWork1\\ProceduralProgram\\Project\\OUT.txt");
     cout << "Start!" << endl;
     Container * C = new Container;
     container_init(C);
     if (container_in(C, ifst))
     {
         ofst << "Filled container!" << endl;
+        container_out(C, ofst);
+        container_sort(C);
         container_out(C, ofst);
         container_out_fish(C, ofst);
         container_clear(C);
