@@ -1,7 +1,11 @@
 #include "container_atd.h"
+
 using namespace std;
-namespace Animals {
+
+namespace Animals
+{
 bool node_out(Node * N, ofstream & ofst);
+
 void container_out_fish(Container * C, ofstream & ofst)
 {
     ofst << "Only fish!" << endl;

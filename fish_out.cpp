@@ -1,17 +1,23 @@
 #include "fish_atd.h"
+
 using namespace std;
-namespace Animals {
+
+namespace Animals
+{
 bool fish_out(Fish * F, ofstream & ofst)
 {
-    ofst << "It is ";
-    switch (F->Place) {
+    switch (F->Place)
+    {
     case RIVER:
+        ofst << "It is ";
         ofst << "river";
         break;
     case SEA:
+        ofst << "It is ";
         ofst << "sea";
         break;
     case LAKE:
+        ofst << "It is ";
         ofst << "lake";
         break;
     default:

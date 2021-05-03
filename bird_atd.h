@@ -1,9 +1,15 @@
 #pragma once
+
 #include <string>
 #include <fstream>
-namespace Animals {
+#include <iostream>
+
+namespace Animals
+{
 enum Migration { MIGRATORY, NONMIGRATORY };
-struct Bird {
+
+struct Bird
+{
     int Key;
     std::string Name;
     int Age;

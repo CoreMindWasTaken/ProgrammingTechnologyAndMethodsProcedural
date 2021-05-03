@@ -1,7 +1,11 @@
 #include "container_atd.h"
+
 using namespace std;
-namespace Animals {
+
+namespace Animals
+{
 Node * node_in(ifstream & ifst);
+
 bool container_in(Container * C, ifstream & ifst)
 {
     Node * N;
@@ -24,7 +28,7 @@ bool container_in(Container * C, ifstream & ifst)
         }
         else
         {
-            cout << "The input received incorrect data!" << endl;
+            cout << "The input received incorrect data!" << endl;           
             return false;
         }
     }

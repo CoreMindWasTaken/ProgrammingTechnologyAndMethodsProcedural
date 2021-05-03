@@ -1,14 +1,19 @@
 #include "bird_atd.h"
+
 using namespace std;
-namespace Animals {
+
+namespace Animals
+{
 bool bird_out(Bird * B, ofstream & ofst)
 {
-    ofst << "It is ";
-    switch (B->AttitudeFlight) {
+    switch (B->AttitudeFlight)
+    {
     case MIGRATORY:
+        ofst << "It is ";
         ofst << "migrant";
         break;
     case NONMIGRATORY:
+        ofst << "It is ";
         ofst << "nonmigrant";
         break;
     default:

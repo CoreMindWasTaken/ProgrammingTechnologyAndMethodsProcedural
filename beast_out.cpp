@@ -1,17 +1,23 @@
 #include "beast_atd.h"
+
 using namespace std;
-namespace Animals {
+
+namespace Animals
+{
 bool beast_out(Beast * B, ofstream & ofst)
 {
-    ofst << "It is ";
-    switch (B->D) {
+    switch (B->D)
+    {
     case PREDATOR:
+        ofst << "It is ";
         ofst << "predator";
         break;
     case HERBIVORE:
+        ofst << "It is ";
         ofst << "herbivore";
         break;
     case INSECTIVOROUS:
+        ofst << "It is ";
         ofst << "insectivorous";
         break;
     default:

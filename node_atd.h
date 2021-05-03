@@ -1,6 +1,9 @@
 #pragma once
+
 #include "animal_atd.h"
-namespace Animals {
+
+namespace Animals
+{
 struct Node
 {
     Animal * A;

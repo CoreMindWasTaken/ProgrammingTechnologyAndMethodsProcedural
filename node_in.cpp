@@ -1,6 +1,9 @@
 #include "node_atd.h"
+
 using namespace std;
-namespace Animals {
+
+namespace Animals
+{
 Animal * animal_in(ifstream & ifst);
 Node * node_in(ifstream & ifst)
 {

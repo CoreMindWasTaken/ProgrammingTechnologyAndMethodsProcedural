@@ -1,11 +1,17 @@
 #include "animal_atd.h"
+
 using namespace std;
-namespace Animals {
+
+namespace Animals
+{
 bool fish_out(Fish * F, ofstream & ofst);
 bool bird_out(Bird * B, ofstream & ofst);
 bool beast_out(Beast * B, ofstream & ofst);
-bool animal_out(Animal * A, ofstream & ofst) {
-    switch(A->Key) {
+
+bool animal_out(Animal * A, ofstream & ofst)
+{
+    switch(A->Key)
+    {
     case FISH:
         if (fish_out((Fish *)A, ofst))
         {
