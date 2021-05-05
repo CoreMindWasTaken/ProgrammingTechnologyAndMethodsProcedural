@@ -1,0 +1,26 @@
+Filled container!
+Container contains 4 elements!
+It is river fish (1 age)- perch
+Length animal name: 5
+It is sea fish (2 age)- shark
+Length animal name: 5
+It is migrant bird (3 age) - pike
+Length animal name: 4
+It is nonmigrant bird (4 age) - swallow
+Length animal name: 7
+Container contains 4 elements!
+It is nonmigrant bird (4 age) - swallow
+Length animal name: 7
+It is sea fish (2 age)- shark
+Length animal name: 5
+It is river fish (1 age)- perch
+Length animal name: 5
+It is migrant bird (3 age) - pike
+Length animal name: 4
+Only fish!
+2) It is sea fish (2 age)- shark
+Length animal name: 5
+3) It is river fish (1 age)- perch
+Length animal name: 5
+Empty container!
+Container contains 0 elements!

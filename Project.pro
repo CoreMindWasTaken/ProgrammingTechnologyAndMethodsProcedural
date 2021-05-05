@@ -1,7 +1,12 @@
 TEMPLATE = app
+
 CONFIG += console c++11
 CONFIG -= app_bundle
 CONFIG -= qt
+CONFIG += qt console warn_on depend_includepath testcase
+
+QT     += testlib
+QT     -= gui
 
 SOURCES += main.cpp \
     animal_in.cpp \
@@ -21,8 +26,8 @@ SOURCES += main.cpp \
     container_out_fish.cpp \
     animal_length_name.cpp \
     animal_compare.cpp \
-    container_sort.cpp
-
+    container_sort.cpp \
+    test.cpp
 
 HEADERS += \
     animal_atd.h \
@@ -30,5 +35,5 @@ HEADERS += \
     container_atd.h \
     fish_atd.h \
     node_atd.h \
-    beast_atd.h
-
+    beast_atd.h \
+    test.h

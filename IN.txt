@@ -1,0 +1,4 @@
+0 perch 0 1
+0 shark 1 2
+1 pike 0 3
+1 swallow 1 4
