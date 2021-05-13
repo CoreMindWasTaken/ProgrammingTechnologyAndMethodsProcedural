@@ -1,0 +1,27 @@
+Filled container!
+Container contains 4 elements!
+It is river fish - perch
+It is sea fish - shark
+It is migrant bird - pike
+It is nonmigrant bird - swallow
+Multimethod.
+Bird and bird.
+It is nonmigrant bird - swallow
+It is migrant bird - pike
+Bird and fish.
+It is nonmigrant bird - swallow
+It is sea fish - shark
+Bird and fish.
+It is nonmigrant bird - swallow
+It is river fish - perch
+Bird and fish.
+It is migrant bird - pike
+It is sea fish - shark
+Bird and fish.
+It is migrant bird - pike
+It is river fish - perch
+Fish and Fish.
+It is sea fish - shark
+It is river fish - perch
+Empty container!
+Container contains 0 elements!
