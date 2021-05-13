@@ -1,5 +1,5 @@
 Filled container!
-Container contains 4 elements!
+Container contains 5 elements!
 It is river fish (1 age)- perch
 Length animal name: 5
 It is sea fish (2 age)- shark
@@ -8,7 +8,60 @@ It is migrant bird (3 age) - pike
 Length animal name: 4
 It is nonmigrant bird (4 age) - swallow
 Length animal name: 7
-Container contains 4 elements!
+It is predator beast (1 age) - wolf
+Length animal name: 4
+Multimethod.
+Beast and bird.
+It is predator beast (1 age) - wolf
+Length animal name: 4
+It is nonmigrant bird (4 age) - swallow
+Length animal name: 7
+Beast and bird.
+It is predator beast (1 age) - wolf
+Length animal name: 4
+It is migrant bird (3 age) - pike
+Length animal name: 4
+Beast and fish.
+It is predator beast (1 age) - wolf
+Length animal name: 4
+It is sea fish (2 age)- shark
+Length animal name: 5
+Beast and fish.
+It is predator beast (1 age) - wolf
+Length animal name: 4
+It is river fish (1 age)- perch
+Length animal name: 5
+Bird and bird.
+It is nonmigrant bird (4 age) - swallow
+Length animal name: 7
+It is migrant bird (3 age) - pike
+Length animal name: 4
+Bird and fish.
+It is nonmigrant bird (4 age) - swallow
+Length animal name: 7
+It is sea fish (2 age)- shark
+Length animal name: 5
+Bird and fish.
+It is nonmigrant bird (4 age) - swallow
+Length animal name: 7
+It is river fish (1 age)- perch
+Length animal name: 5
+Bird and fish.
+It is migrant bird (3 age) - pike
+Length animal name: 4
+It is sea fish (2 age)- shark
+Length animal name: 5
+Bird and fish.
+It is migrant bird (3 age) - pike
+Length animal name: 4
+It is river fish (1 age)- perch
+Length animal name: 5
+Fish and Fish.
+It is sea fish (2 age)- shark
+Length animal name: 5
+It is river fish (1 age)- perch
+Length animal name: 5
+Container contains 5 elements!
 It is nonmigrant bird (4 age) - swallow
 Length animal name: 7
 It is sea fish (2 age)- shark
@@ -16,6 +69,8 @@ Length animal name: 5
 It is river fish (1 age)- perch
 Length animal name: 5
 It is migrant bird (3 age) - pike
+Length animal name: 4
+It is predator beast (1 age) - wolf
 Length animal name: 4
 Only fish!
 2) It is sea fish (2 age)- shark

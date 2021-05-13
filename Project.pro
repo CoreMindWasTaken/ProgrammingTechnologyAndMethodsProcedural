@@ -27,7 +27,8 @@ SOURCES += main.cpp \
     animal_length_name.cpp \
     animal_compare.cpp \
     container_sort.cpp \
-    test.cpp
+    test.cpp \
+    multimethod.cpp
 
 HEADERS += \
     animal_atd.h \
